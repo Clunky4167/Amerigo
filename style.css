@@ -1,45 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&display=swap');
 
 body {
-    font-family: 'Faculty Glyphic', sans-serif; /* Utilizzo del font Faculty Glyphic */
+    font-family: 'Faculty Glyphic', sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    color: #333;
-    background-color: #f8f9fa;
+    color: #01161E;
+    background-color: #EFF6E0;
 }
 
 header {
-    background-color: #007bff;
-    color: white;
-    padding: 20px 0;
+    background-color: #124559;
+    color: #EFF6E0;
     text-align: center;
+    padding: 20px;
 }
 
 header h1 {
     margin: 0;
     font-size: 2.5rem;
-    font-family: 'Faculty Glyphic', sans-serif;
 }
 
 header p {
-    margin: 5px 0 0;
     font-size: 1.2rem;
-    font-family: 'Faculty Glyphic', sans-serif;
 }
 
 nav {
     text-align: center;
     margin: 20px 0;
+    background-color: #AEC3B0;
+    padding: 10px 0;
 }
 
 nav a {
     margin: 0 15px;
-    color: #007bff;
+    color: #01161E;
     text-decoration: none;
     font-weight: bold;
-    font-size: 1rem;
-    font-family: 'Faculty Glyphic', sans-serif;
 }
 
 nav a:hover {
@@ -50,323 +47,39 @@ section {
     padding: 20px;
     max-width: 800px;
     margin: 0 auto;
+    background-color: #EFF6E0;
+    border: 1px solid #AEC3B0;
+    border-radius: 10px;
 }
 
 section h2 {
-    color: #007bff;
-    font-size: 1.8rem;
-    margin-bottom: 10px;
-    font-family: 'Faculty Glyphic', sans-serif;
-}
-
-section p, section ul {
-    font-size: 1rem;
-    color: #444;
-    font-family: 'Faculty Glyphic', sans-serif;
-}
-
-ul {
-    padding-left: 20px;
-}
-
-ul li {
-    margin-bottom: 5px;
-    font-family: 'Faculty Glyphic', sans-serif;
-}
-
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-    margin-top: 20px;
-}
-
-footer p {
-    margin: 5px 0;
-    font-size: 0.9rem;
-    font-family: 'Faculty Glyphic', sans-serif;
-}
-
-footer a {
-    color: #007bff;
-    text-decoration: none;
-    font-family: 'Faculty Glyphic', sans-serif;
-}
-
-footer a:hover {
-    text-decoration: underline;
-}
-
-#cookie-banner {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: #333;
-    color: white;
-    padding: 10px;
-    text-align: center;
-    display: none;
-}
-
-#cookie-banner p {
-    font-size: 0.9rem;
-    margin: 0;
-    font-family: 'Faculty Glyphic', sans-serif;
-}
-
-#cookie-banner button {
-    background-color: #007bff;
-    color: white;
-    border: none;
-    padding: 5px 10px;
-    cursor: pointer;
-    font-size: 0.9rem;
-    font-family: 'Faculty Glyphic', sans-serif;
-}
-@import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&display=swap');
-
-body {
-    font-family: 'Faculty Glyphic', sans-serif; /* Utilizzo del font Faculty Glyphic */
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    color: #333;
-    background-color: #f8f9fa;
-}
-
-header {
-    background-color: #007bff;
-    color: white;
-    padding: 20px 0;
-    text-align: center;
-}
-
-header h1 {
-    margin: 0;
-    font-size: 2.5rem;
-    font-family: 'Faculty Glyphic', sans-serif;
-}
-
-header p {
-    margin: 5px 0 0;
-    font-size: 1.2rem;
-    font-family: 'Faculty Glyphic', sans-serif;
-}
-
-nav {
-    text-align: center;
-    margin: 20px 0;
-}
-
-nav a {
-    margin: 0 15px;
-    color: #007bff;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 1rem;
-    font-family: 'Faculty Glyphic', sans-serif;
-}
-
-nav a:hover {
-    text-decoration: underline;
-}
-
-section {
-    padding: 20px;
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-section h2 {
-    color: #007bff;
-    font-size: 1.8rem;
-    margin-bottom: 10px;
-    font-family: 'Faculty Glyphic', sans-serif;
-}
-
-section p, section ul {
-    font-size: 1rem;
-    color: #444;
-    font-family: 'Faculty Glyphic', sans-serif;
-}
-
-ul {
-    padding-left: 20px;
-}
-
-ul li {
-    margin-bottom: 5px;
-    font-family: 'Faculty Glyphic', sans-serif;
-}
-
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-    margin-top: 20px;
-}
-
-footer p {
-    margin: 5px 0;
-    font-size: 0.9rem;
-    font-family: 'Faculty Glyphic', sans-serif;
-}
-
-footer a {
-    color: #007bff;
-    text-decoration: none;
-    font-family: 'Faculty Glyphic', sans-serif;
-}
-
-footer a:hover {
-    text-decoration: underline;
-}
-
-#cookie-banner {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: #333;
-    color: white;
-    padding: 10px;
-    text-align: center;
-    display: none;
-}
-
-#cookie-banner p {
-    font-size: 0.9rem;
-    margin: 0;
-    font-family: 'Faculty Glyphic', sans-serif;
-}
-
-#cookie-banner button {
-    background-color: #007bff;
-    color: white;
-    border: none;
-    padding: 5px 10px;
-    cursor: pointer;
-    font-size: 0.9rem;
-    font-family: 'Faculty Glyphic', sans-serif;
-}
-/* Importazione del font "Faculty Glyphic" da Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&display=swap');
-
-body {
-    font-family: 'Faculty Glyphic', sans-serif; /* Utilizzo del font Faculty Glyphic */
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    color: #333;
-    background-color: #f8f9fa;
-}
-
-header {
-    background-color: #007bff;
-    color: white;
-    padding: 20px 0;
-    text-align: center;
-}
-
-header h1 {
-    margin: 0;
-    font-size: 2.5rem;
-}
-
-header p {
-    margin: 5px 0 0;
-    font-size: 1.2rem;
-}
-
-nav {
-    text-align: center;
-    margin: 20px 0;
-}
-
-nav a {
-    margin: 0 15px;
-    color: #007bff;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 1rem;
-}
-
-nav a:hover {
-    text-decoration: underline;
-}
-
-section {
-    padding: 20px;
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-section h2 {
-    color: #007bff;
+    color: #124559;
     font-size: 1.8rem;
     margin-bottom: 10px;
 }
 
 section p, section ul {
     font-size: 1rem;
-    color: #444;
+    color: #01161E;
 }
 
 ul {
+    list-style-type: square;
     padding-left: 20px;
 }
 
-ul li {
-    margin-bottom: 5px;
-}
-
 footer {
-    background-color: #333;
-    color: white;
+    background-color: #598392;
+    color: #EFF6E0;
     text-align: center;
     padding: 10px 0;
-    margin-top: 20px;
-}
-
-footer p {
-    margin: 5px 0;
-    font-size: 0.9rem;
 }
 
 footer a {
-    color: #007bff;
+    color: #EFF6E0;
     text-decoration: none;
 }
 
 footer a:hover {
     text-decoration: underline;
-}
-
-#cookie-banner {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: #333;
-    color: white;
-    padding: 10px;
-    text-align: center;
-    display: none;
-}
-
-#cookie-banner p {
-    font-size: 0.9rem;
-    margin: 0;
-}
-
-#cookie-banner button {
-    background-color: #007bff;
-    color: white;
-    border: none;
-    padding: 5px 10px;
-    cursor: pointer;
-    font-size: 0.9rem;
 }

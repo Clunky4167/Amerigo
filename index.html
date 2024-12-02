@@ -6,8 +6,80 @@
     <meta name="description" content="Pagina ufficiale del Dott. Amerigo El Asmar, ortopedico chirurgo specializzato in diagnosi, trattamento e prevenzione delle patologie del sistema muscolo-scheletrico.">
     <meta name="author" content="Dott. Amerigo El Asmar">
     <title>Dott. Amerigo El Asmar - Ortopedico Chirurgo</title>
-    <link href="https://fonts.googleapis.com/css2?family=Faculty+Glyphic&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Link a Google Fonts (se disponibile su Google Fonts) -->
+    <link href="https://fonts.googleapis.com/css2?family=Agraham&display=swap" rel="stylesheet">
+    
+    <style>
+        body {
+            font-family: 'Agraham', sans-serif; /* Utilizzo del font Agraham */
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f8f9fa;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #007bff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+        footer a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+        #cookie-banner {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            display: none;
+        }
+        #cookie-banner button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -22,13 +94,16 @@
     </nav>
     <section id="about">
         <h2>Chi Sono</h2>
-        <p>Il Dott. Amerigo El Asmar è un medico chirurgo specializzato in Ortopedia e Traumatologia, regolarmente iscritto all'Ordine dei Medici di Firenze.</p>
+        <p>
+            Il Dott. Amerigo El Asmar è un medico chirurgo specializzato in Ortopedia e Traumatologia, regolarmente iscritto all'Ordine dei Medici di Milano con il numero di iscrizione <strong>12345</strong>.
+            Opera con professionalità e dedizione per migliorare la qualità della vita dei suoi pazienti.
+        </p>
     </section>
     <section id="services">
         <h2>Servizi</h2>
         <ul>
             <li>Diagnosi e trattamento di patologie muscolo-scheletriche.</li>
-            <li>Interventi chirurgici complessi.</li>
+            <li>Interventi chirurgici complessi, tra cui artroprotesi e ricostruzioni legamentose.</li>
             <li>Fisioterapia e consulenza preventiva personalizzata.</li>
         </ul>
     </section>
@@ -37,16 +112,36 @@
         <ul>
             <li><strong>Telefono</strong>: +39 123 456 7890</li>
             <li><strong>Email</strong>: <a href="mailto:info@draelasmar.it">info@draelasmar.it</a></li>
-            <li><strong>Studio</strong>: Via Roma, 10, Firenze, Italia</li>
+            <li><strong>Studio</strong>: Via Roma, 10, Milano, Italia</li>
         </ul>
     </section>
     <section id="privacy">
         <h2>Privacy Policy</h2>
-        <p>Questo sito rispetta la normativa vigente sulla protezione dei dati personali (GDPR).</p>
+        <p>
+            Questo sito rispetta la normativa vigente sulla protezione dei dati personali (GDPR). I dati raccolti tramite moduli di contatto saranno trattati esclusivamente per rispondere alle richieste degli utenti e non saranno condivisi con terze parti.
+            Per maggiori informazioni, consulta la nostra <a href="#privacy">Privacy Policy completa</a>.
+        </p>
     </section>
     <footer>
         <p>&copy; 2024 Dott. Amerigo El Asmar - P.IVA 12345678901</p>
+        <p>Disclaimer: Le informazioni presenti su questo sito non sostituiscono una consulenza medica. Per diagnosi o trattamenti specifici, contattare il medico.</p>
         <p><a href="#privacy">Privacy Policy</a> | <a href="#about">Termini di utilizzo</a></p>
     </footer>
+    <div id="cookie-banner">
+        <p>Questo sito utilizza cookie per migliorare la tua esperienza. Continuando a navigare accetti l'uso dei cookie. <a href="#privacy" style="color: #007bff;">Leggi la nostra cookie policy</a>.</p>
+        <button onclick="acceptCookies()">Accetta</button>
+    </div>
+    <script>
+        // Cookie banner logic
+        function acceptCookies() {
+            document.getElementById('cookie-banner').style.display = 'none';
+            document.cookie = "cookies_accepted=true; max-age=31536000; path=/";
+        }
+        window.onload = function() {
+            if (!document.cookie.includes("cookies_accepted")) {
+                document.getElementById('cookie-banner').style.display = 'block';
+            }
+        };
+    </script>
 </body>
 </html>

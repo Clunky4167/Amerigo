@@ -7,7 +7,7 @@
     <meta name="author" content="Dott. Amerigo El Asmar">
     <title>Dott. Amerigo El Asmar - Ortopedico Chirurgo</title>
     
-    <!-- Link a Google Fonts (se disponibile su Google Fonts) -->
+    <!-- Link a Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Agraham&display=swap" rel="stylesheet">
     
     <style>
@@ -16,12 +16,12 @@
             line-height: 1.6;
             margin: 0;
             padding: 0;
-            color: #333;
-            background-color: #f8f9fa;
+            color: #01161E; /* Colore del testo principale */
+            background-color: #EFF6E0; /* Sfondo primario */
         }
         header {
-            background-color: #007bff;
-            color: white;
+            background-color: #124559; /* Colore di accento */
+            color: #EFF6E0;
             padding: 20px 0;
             text-align: center;
         }
@@ -29,36 +29,60 @@
             margin: 0;
             font-size: 2.5rem;
         }
+        header p {
+            margin: 5px 0 0;
+            font-size: 1.2rem;
+        }
         nav {
             text-align: center;
             margin: 20px 0;
         }
         nav a {
             margin: 0 15px;
-            color: #007bff;
+            color: #124559; /* Colore di accento */
             text-decoration: none;
             font-weight: bold;
         }
         nav a:hover {
+            color: #598392; /* Colore di supporto */
             text-decoration: underline;
         }
         section {
             padding: 20px;
             max-width: 800px;
             margin: 0 auto;
+            border: 1px solid #AEC3B0; /* Colore dei bordi */
+            border-radius: 8px;
+            background-color: #EFF6E0; /* Sfondo primario */
+        }
+        section h2 {
+            color: #124559; /* Colore di accento */
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+        }
+        section p, section ul {
+            font-size: 1rem;
+            color: #01161E; /* Colore del testo principale */
+        }
+        ul {
+            padding-left: 20px;
+        }
+        ul li {
+            margin-bottom: 5px;
         }
         footer {
-            background-color: #333;
-            color: white;
+            background-color: #AEC3B0; /* Colore di supporto */
+            color: #01161E; /* Colore del testo principale */
             text-align: center;
             padding: 10px 0;
             margin-top: 20px;
         }
         footer a {
-            color: #007bff;
+            color: #124559; /* Colore di accento */
             text-decoration: none;
         }
         footer a:hover {
+            color: #598392; /* Colore di supporto */
             text-decoration: underline;
         }
         #cookie-banner {
@@ -66,18 +90,26 @@
             bottom: 0;
             left: 0;
             right: 0;
-            background-color: #333;
-            color: white;
+            background-color: #124559; /* Colore di accento */
+            color: #EFF6E0; /* Sfondo primario */
             padding: 10px;
             text-align: center;
             display: none;
         }
+        #cookie-banner p {
+            font-size: 0.9rem;
+            margin: 0;
+        }
         #cookie-banner button {
-            background-color: #007bff;
-            color: white;
+            background-color: #598392; /* Colore di supporto */
+            color: #EFF6E0; /* Sfondo primario */
             border: none;
             padding: 5px 10px;
             cursor: pointer;
+            border-radius: 4px;
+        }
+        #cookie-banner button:hover {
+            background-color: #AEC3B0; /* Colore di bordi/sezioni */
         }
     </style>
 </head>
@@ -128,7 +160,7 @@
         <p><a href="#privacy">Privacy Policy</a> | <a href="#about">Termini di utilizzo</a></p>
     </footer>
     <div id="cookie-banner">
-        <p>Questo sito utilizza cookie per migliorare la tua esperienza. Continuando a navigare accetti l'uso dei cookie. <a href="#privacy" style="color: #007bff;">Leggi la nostra cookie policy</a>.</p>
+        <p>Questo sito utilizza cookie per migliorare la tua esperienza. Continuando a navigare accetti l'uso dei cookie. <a href="#privacy" style="color: #EFF6E0;">Leggi la nostra cookie policy</a>.</p>
         <button onclick="acceptCookies()">Accetta</button>
     </div>
     <script>

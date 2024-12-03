@@ -1,6 +1,6 @@
 # Sito Web e App del Dr. Amerigo El Asmar - Ortopedico Chirurgo
 
-Benvenuti nel sito web e nell'app del Dr. [Nome Medico], specialista in ortopedia e chirurgia ortopedica. Questo progetto offre un punto di riferimento per conoscere il medico, i suoi servizi, e rimanere aggiornati sulle sue disponibilità.
+Benvenuti nel sito web e nell'app del Dr. Amerigo El Asmar, specialista in ortopedia e chirurgia ortopedica. Questo progetto offre un punto di riferimento per conoscere il medico, i suoi servizi, e rimanere aggiornati sulle sue disponibilità.
 
 ## Caratteristiche
 ### Sito Web
